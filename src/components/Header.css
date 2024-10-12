@@ -1,0 +1,13 @@
+/* src/components/Header.css */
+.header {
+    background-color: #4B2E2B; /* Chocolate brown background */
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    color: #FFD700; /* Golden font color */
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+}

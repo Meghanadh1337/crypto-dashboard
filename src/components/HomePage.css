@@ -1,0 +1,35 @@
+/* src/components/Homepage.css */
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Make sure the card is vertically centered */
+    background-color: #f0f0f0; /* Light background color */
+}
+
+.card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #4B2E2B; /* Chocolate brown for button */
+    color: #FFD700; /* Golden font */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.button:hover {
+    background-color: #3a241f; /* Darker chocolate on hover */
+}
