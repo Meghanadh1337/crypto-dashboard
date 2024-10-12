@@ -1,13 +1,18 @@
 /* src/components/Header.css */
 .header {
-    background-color: #4B2E2B; /* Chocolate brown background */
-    text-align: center;
-    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #05224A; /* Adjust based on your color preference */
+    padding: 10px;
+    box-shadow: 0 4px 2px -2px gray; /* To give the header a shadow effect */
+    z-index: 1000; /* To ensure the header stays above other content */
 }
 
 .header h1 {
-    color: #FFD700; /* Golden font color */
-    font-family: 'Arial', sans-serif;
+    color: #96FF73; /* Golden font color */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3rem;
     margin: 0;
 }
