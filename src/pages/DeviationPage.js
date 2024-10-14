@@ -33,15 +33,15 @@ const DeviationPage = () => {
 
     const fetchInrDeviationData = async (coin) => {
         try {
-            const response = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${coin.toLowerCase()}&vs_currencies=inr`);
+            const response = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=$coin&vs_currencies=inr`);
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             const data = await response.json();
-            setInrDeviationData(data[coin.toLowerCase()].inr); // Get INR price
+            //setInrDeviationData(data[coin.toLowerCase()].inr); // Get INR price
         } catch (error) {
             console.error("Error fetching INR deviation data:", error);
-            setError("Failed to fetch INR data. Please try again later.");
+            //setError("Failed to fetch INR data. Please try again later.");
         }
     };
 
