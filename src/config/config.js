@@ -1,3 +1,3 @@
-const API_URL = 'https://coincheck.onrender.com/api/stats?coin=';
+const API_URL = 'https://coincheck.onrender.com/api/';
 
 export default API_URL;

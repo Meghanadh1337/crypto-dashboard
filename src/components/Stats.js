@@ -12,7 +12,7 @@ const Stats = ({ coin }) => {
     useEffect(() => {
         const fetchStats = async () => {
             try {
-                const response = await axios.get(`${API_URL}${coin}`);
+                const response = await axios.get(`${API_URL}/stats?coin=${coin}`);
                 console.log(response.data); // Check the structure of the data
                 setStats(response.data);
                 setError(null);

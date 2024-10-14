@@ -13,6 +13,12 @@ const Homepage = () => {
                     <h2>Explore Cryptocurrency Stats</h2>
                     <Link to="/stats" className="button">Go to Stats</Link> {/* Link to stats page */}
                 </div>
+
+                {/* New Card for Deviation Endpoint */}
+                <div className="card">
+                    <h2>Deviation Analysis</h2>
+                    <Link to="/deviation" className="button">Go to Deviation</Link> {/* Link to deviation page */}
+                </div>
             </div>
         </>
     );

@@ -1,0 +1,24 @@
+/* src/components/DeviationPage.css */
+.deviation-page {
+    padding: 20px;
+}
+
+.deviation {
+    margin-top: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+select {
+    padding: 5px;
+}
+
+.error {
+    color: red;
+}
+
+h2 {
+    margin-top: 20px;
+}

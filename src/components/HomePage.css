@@ -20,8 +20,8 @@
 }
 
 .button {
-    background-color: #4B2E2B; /* Chocolate brown for button */
-    color: #FFD700; /* Golden font */
+    background-color: #FBE9D0; /* Chocolate brown for button */
+    color: #4A0505; /* Golden font */ 
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -31,5 +31,5 @@
 }
 
 .button:hover {
-    background-color: #3a241f; /* Darker chocolate on hover */
+    color:#1f0202;
 }
